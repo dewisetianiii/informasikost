@@ -10,7 +10,9 @@
     <title>Ada-Kost</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="assets/frontend/css/bootstrap.min.css" type="text/css">
@@ -42,10 +44,10 @@
                 </div>
                 <nav class="main-menu mobile-menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./about">About</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li class="active"><a href="./about">About</a></li>
                         <li><a href="rooms">Rooms</a></li>
-                        <li><a href="./contact">Contact</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <div id="mobile-menu-wrap"></div>
@@ -55,21 +57,12 @@
     <!-- Header End -->
 
     <!-- Hero Area Section Begin -->
-    <section class="hero-area set-bg" data-setbg="assets/frontend/img/foto1.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="hero-text">
-                        <h1>Selamat datang diwebsite Ada-kost</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="hero-area set-bg other-page" data-setbg="assets/frontend/img/foto1.jpg">
+    </div>
     <!-- Hero Area Section End -->
 
     <!-- Search Filter Section Begin -->
-    {{-- <section class="search-filter">
+    <section class="search-filter other-page-filter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -113,206 +106,189 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- Search Filter Section End -->
 
-    <!-- Intro Text Section Begin -->
-    <section class="intro-section spad">
+    <!-- About Us Section Begin -->
+    <section class="about-us spad">
         <div class="container">
-            <div class="row intro-text">
-                <div class="col-lg-6">
-                    <div class="intro-left">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-left">
                         <div class="section-title">
                             <span>a memorable holliday</span>
-                            <h2>A great stay in a<br /> lovely hotel.</h2>
+                            <h2>A great stay in a <br />lovely hotel.</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros venenatis,
-                            sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non,
-                            ultricies volutpat tellus.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="intro-right">
+                        <p class="second-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                            Risus commodo viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros
+                            venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae
+                            efficitur non, ultricies volutpat tellus.</p>
                         <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p>
                         <a href="#" class="primary-btn">Make a Reservation</a>
                     </div>
                 </div>
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <div class="about-img">
+                                <img src="assets/frontend/img/about/about-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="about-img second-img">
+                                <img src="assets/frontend/img/about/about-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="about-img third-img">
+                                <img src="assets/frontend/img/about/about-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+                            <div class="about-img">
+                                <img src="assets/frontend/img/about/about-4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Intro Text Section End -->
+    <!-- About Us Section End -->
 
-    <!-- Facilities Section Begin -->
-    <section class="facilities-section">
-        <div class="container-fluid">
+    <!-- Milestone Counter Section Begin -->
+    <section class="milestone-counter spad set-bg" data-setbg="assets/frontend/img/about/milestone-bg.jpg">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="facilities-item set-bg" data-setbg="assets/frontend/img/faci-1.jpg">
-                        <div class="fi-title">
-                            <h2>Luxury Suite Room</h2>
+                <div class="col-md-4">
+                    <div class="mc-item">
+                        <div class="mc-num">
+                            <span class="counter">25</span>
+                        </div>
+                        <div class="mc-text">
+                            <h3>Luxury Suites</h3>
                             <p>From $399</p>
                         </div>
-                        <div class="fi-features">
-                            <div class="fi-info">
-                                <i class="flaticon-019-television"></i>
-                                <p>Smart TV</p>
-                            </div>
-                            <div class="fi-info">
-                                <i class="flaticon-029-wifi"></i>
-                                <p>High Wi-fii</p>
-                            </div>
-                            <div class="fi-info">
-                                <i class="flaticon-003-air-conditioner"></i>
-                                <p>AC</p>
-                            </div>
-                            <div class="fi-info">
-                                <i class="flaticon-036-parking"></i>
-                                <p>Parking</p>
-                            </div>
-                            <div class="fi-info">
-                                <i class="flaticon-007-swimming-pool"></i>
-                                <p>Pool</p>
-                            </div>
-                        </div>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="facilities-item set-bg fi-right" data-setbg="assets/frontend/img/faci-2.jpg">
-                        <div class="fi-title">
-                            <h2>Infinity Pool</h2>
-                            <p>For all our guests</p>
+                <div class="col-md-4">
+                    <div class="mc-item">
+                        <div class="mc-num">
+                            <span class="counter">35</span>
+                            <strong>K</strong>
                         </div>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
+                        <div class="mc-text">
+                            <h3>Happy Clients</h3>
+                            <p>all year long</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mc-item">
+                        <div class="mc-num">
+                            <span class="counter">365</span>
+                        </div>
+                        <div class="mc-text">
+                            <h3>Days/ Year</h3>
+                            <p>From $399</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Facilities Section End -->
+    <!-- Milestone Counter Section End -->
 
-    <!-- Testimonial Section Begin -->
-    <section class="testimonial-section spad">
+    <!-- Award Section Begin -->
+    <section class="award-section spad">
         <div class="container">
             <div class="row">
-                <div class="section-title">
-                    <h2>Guestbook</h2>
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Our Awards</h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="testimonial-item">
-                        <div class="ti-time">
-                            02 / 02 / 2019
-                        </div>
-                        <h4>We loved our stay</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="award-item">
+                        <img src="assets/frontend/img/about/award-img.png" alt="">
+                        <h5>2011</h5>
+                        <h4>Best Hotel in Europe</h4>
+                        <span>Elite Hotel award</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget
-                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
-                        <div class="ti-author">
-                            <div class="author-pic">
-                                <img src="assets/frontend/img/author-1.png" alt="">
-                            </div>
-                            <div class="author-text">
-                                <h6>JOHN DOE <span>Madrid</span></h6>
-                            </div>
-                        </div>
+                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="testimonial-item">
-                        <div class="ti-time">
-                            02 / 02 / 2019
-                        </div>
-                        <h4>I will come back again</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="award-item">
+                        <img src="assets/frontend/img/about/award-img.png" alt="">
+                        <h5>2012</h5>
+                        <h4>Best Services</h4>
+                        <span>Elite Hotel award</span>
                         <p>Ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
                             ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
-                        <div class="ti-author">
-                            <div class="author-pic">
-                                <img src="assets/frontend/img/author-2.png" alt="">
-                            </div>
-                            <div class="author-text">
-                                <h6>Maria Smith <span>Madrid</span></h6>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="award-item">
+                        <img src="assets/frontend/img/about/award-img.png" alt="">
+                        <h5>2014</h5>
+                        <h4>Best Hotel Spa</h4>
+                        <span>Elite Hotel award</span>
+                        <p>Dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
+                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="award-item">
+                        <img src="assets/frontend/img/about/award-img.png" alt="">
+                        <h5>2016</h5>
+                        <h4>Best Luxury Hotel</h4>
+                        <span>Elite Hotel award</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget
+                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="award-item">
+                        <img src="assets/frontend/img/about/award-img.png" alt="">
+                        <h5>2017</h5>
+                        <h4>2nd Place @ Best Hotel</h4>
+                        <span>Elite Hotel award</span>
+                        <p>Ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
+                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="award-item">
+                        <img src="assets/frontend/img/about/award-img.png" alt="">
+                        <h5>2018</h5>
+                        <h4>Best Hotel Spa</h4>
+                        <span>Elite Hotel award</span>
+                        <p>Dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
+                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Testimonial Section End -->
+    <!-- Award Section End -->
 
-    <!-- Video Section Begin -->
-    <div class="video-section">
-        <div class="video-bg set-bg" data-setbg="assets/frontend/img/video-bg.jpg"></div>
+    <!-- Call To Action Begin -->
+    <section class="callto-section">
         <div class="container">
-            <div class="video-text set-bg" data-setbg="assets/frontend/img/video-inside-bg.jpg">
-                <a href="https://www.youtube.com/watch?v=j56YlCXuPFU" class="pop-up"><i class="fa fa-play"></i></a>
+            <div class="callto-text">
+                <h2>Book your stay with us now!</h2>
             </div>
-        </div>
-    </div>
-    <!-- Video Section End -->
-
-    <!-- Home Page About Section Begin -->
-    <section class="homepage-about spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h2>“Customers love our <br />facilities”</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero mauris, bibendum eget
-                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare. Morbi vel
-                            ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Suspendisse maximus
-                            malesuada. </p>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="about-img">
-                                <img src="assets/frontend/img/home-about-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="about-img">
-                                <img src="assets/frontend/img/home-about-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="about-img">
-                                <img src="assets/frontend/img/home-about-3.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="about-img">
-                                <img src="assets/frontend/img/home-about-4.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a href="#" class="primary-btn">Make a Reservation</a>
         </div>
     </section>
-    <!-- Home Page About Section End -->
+    <!-- Call To Action End  -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -362,14 +338,13 @@
                         </ul>
                     </div>
                 </div>
-<div class="row pt-5">
+                <div class="row pt-5">
                     <div class="col-lg-12 ">
                         <div class="small text-white text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>

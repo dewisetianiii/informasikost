@@ -19,3 +19,15 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('frontend.index');
 });
+
+Route::get('/about', function () {
+    return view('frontend.about');
+});
+
+Route::get('/rooms', function () {
+    return view('frontend.rooms');
+});
+
+Route::get('/contact', function () {
+    return view('frontend.contact');
+});
