@@ -72,6 +72,8 @@
 						</button>
 					</div>
 
+					<small>Do not have an account? </small><a href="register" class="signup">Signup</a>
+
 				</form>
 			</div>
 		</div>

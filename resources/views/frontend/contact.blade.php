@@ -48,6 +48,7 @@
                         <li><a href="./about">About</a></li>
                         <li><a href="rooms">Rooms</a></li>
                         <li class="active"><a href="./contact">Contact</a></li>
+                        <li><a href="./login">Login</a></li>
                     </ul>
                 </nav>
                 <div id="mobile-menu-wrap"></div>
