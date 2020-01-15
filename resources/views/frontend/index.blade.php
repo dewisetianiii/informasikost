@@ -37,9 +37,9 @@
                 <div class="logo">
                     <a href="./index.html"><img src="assets/frontend/img/kost.jpg" alt=""></a>
                 </div>
-                <div class="nav-right">
+                {{-- <div class="nav-right">
                     <a href="#" class="primary-btn">Make a Reservation</a>
-                </div>
+                </div> --}}
                 <nav class="main-menu mobile-menu">
                     <ul>
                         <li class="active"><a href="./index.html">Home</a></li>
@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-text">
-                        <h1>Selamat datang diwebsite Ada-kost</h1>
+                        <h1>Cari Kost/Kontrakan?Ada-kost Aja</h1>
                     </div>
                 </div>
             </div>
@@ -120,24 +120,24 @@
     <section class="intro-section spad">
         <div class="container">
             <div class="row intro-text">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="intro-left">
                         <div class="section-title">
-                            <span>a memorable holliday</span>
-                            <h2>A great stay in a<br /> lovely hotel.</h2>
+                            <span>Ingin cari tahu tentang kost/Kontrakan sekitar Bandung?</span>
+                            <h2>Dapatkan infonya di Ada-kost Aja </h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros venenatis,
-                            sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non,
-                            ultricies volutpat tellus.</p>
+                        <p>Ada-kost - Aplikasi Pencari Info Kost/Kontrakan sekitar Bandung
+                        Ada-kost menyajikan informasi Kamar kosan, lengkap dengan fasilitas kost, harga kost,
+                        beserta foto desain kamar yang disesuaikan dengan kondisi sebenarnya. </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="intro-right">
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
+                         <div class="col-sm-6">
+                            <div class="about-img">
+                                <img src="assets/frontend/img/bdg.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,10 +150,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="facilities-item set-bg" data-setbg="assets/frontend/img/faci-1.jpg">
+                    <div class="facilities-item set-bg" data-setbg="assets/frontend/img/rooms/kos1.jpg">
                         <div class="fi-title">
-                            <h2>Luxury Suite Room</h2>
-                            <p>From $399</p>
+                            <h2>kost telkom</h2>
+                            <p>From Rp. 43.000.000/tahun</p>
                         </div>
                         <div class="fi-features">
                             <div class="fi-info">
@@ -172,21 +172,15 @@
                                 <i class="flaticon-036-parking"></i>
                                 <p>Parking</p>
                             </div>
-                            <div class="fi-info">
-                                <i class="flaticon-007-swimming-pool"></i>
-                                <p>Pool</p>
-                            </div>
                         </div>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="facilities-item set-bg fi-right" data-setbg="assets/frontend/img/faci-2.jpg">
+                    <div class="facilities-item set-bg fi-right" data-setbg="assets/frontend/img/rooms/kos2.jpg">
                         <div class="fi-title">
-                            <h2>Infinity Pool</h2>
-                            <p>For all our guests</p>
+                            <h2>kost telkom</h2>
+                            <p>fasilitas kamar</p>
                         </div>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
                     </div>
                 </div>
             </div>
@@ -195,7 +189,7 @@
     <!-- Facilities Section End -->
 
     <!-- Testimonial Section Begin -->
-    <section class="testimonial-section spad">
+    {{-- <section class="testimonial-section spad">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -255,18 +249,18 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Testimonial Section End -->
 
     <!-- Video Section Begin -->
-    <div class="video-section">
+    {{-- <div class="video-section">
         <div class="video-bg set-bg" data-setbg="assets/frontend/img/video-bg.jpg"></div>
         <div class="container">
             <div class="video-text set-bg" data-setbg="assets/frontend/img/video-inside-bg.jpg">
                 <a href="https://www.youtube.com/watch?v=j56YlCXuPFU" class="pop-up"><i class="fa fa-play"></i></a>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Video Section End -->
 
     <!-- Home Page About Section Begin -->
@@ -276,35 +270,33 @@
                 <div class="col-lg-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <h2>“Customers love our <br />facilities”</h2>
+                            <h2>“Rekomendasi Kost untuk Putri”</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero mauris, bibendum eget
-                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare. Morbi vel
-                            ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Suspendisse maximus
-                            malesuada. </p>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
+                        <p>fasilitas: <br> 1. Kamar Mandi Dalam  2. Springbed  3. Meja Belajar <br>
+                            4. Lemari  5. Water Heater 6. Dapur Bersama <br> 7. Akses masuk finger print  8. CCTV 24 jam <br><br>
+                            Lokasi: Jl.Sukamanah No.25 Bandung Pusat Kota(dekat paskal 23,BINUS) <br> HARGA/BULAN: 1,5-1,8</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="assets/frontend/img/home-about-1.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos41.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="assets/frontend/img/home-about-2.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos42.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="assets/frontend/img/home-about-3.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos43.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="assets/frontend/img/home-about-4.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos44.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -321,13 +313,12 @@
                 <div class="col-lg-4">
                     <div class="footer-item">
                         <div class="footer-logo">
-                            <a href="#"><img src="assets/frontend/img/logo.png" alt=""></a>
+                            <a href="#"><img src="assets/frontend/img/kost.jpg" alt=""></a>
                         </div>
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.</p>
+                        <p>Ada-kost - Aplikasi Pencari Info Kost/Kontrakan sekitar Bandung</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="footer-item">
                         <h5>Newsletter</h5>
                         <div class="newslatter-form">
@@ -335,12 +326,12 @@
                             <button type="submit">Subscribe</button>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-lg-4">
                     <div class="footer-item">
                         <h5>Contact Info</h5>
                         <ul>
-                            <li><img src="assets/frontend/img/placeholder.png" alt="">1525 Boring Lane,<br />Los Angeles, CA</li>
+                            <li><img src="assets/frontend/img/placeholder.png" alt="">Bandung<br />Jawa Barat</li>
                             <li><img src="assets/frontend/img/phone.png" alt="">+1 (603)535-4592</li>
                         </ul>
                     </div>
@@ -353,12 +344,10 @@
                     <div class="col-lg-12">
                         
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Rooms</a></li>
-                            <li><a href="#">Facilities</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="./about">About</a></li>
+                            <li><a href="./rooms">Rooms</a></li>
+                            <li><a href="./contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>

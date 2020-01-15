@@ -39,9 +39,9 @@
                 <div class="logo">
                     <a href="./index.html"><img src="assets/frontend/img/kost.jpg" alt=""></a>
                 </div>
-                <div class="nav-right">
+                {{-- <div class="nav-right">
                     <a href="#" class="primary-btn">Make a Reservation</a>
-                </div>
+                </div> --}}
                 <nav class="main-menu mobile-menu">
                     <ul>
                         <li><a href="/">Home</a></li>
@@ -57,12 +57,12 @@
     <!-- Header End -->
 
     <!-- Hero Area Section Begin -->
-    <div class="hero-area set-bg other-page" data-setbg="assets/frontend/img/foto1.jpg">
-    </div>
+    {{-- <div class="hero-area set-bg other-page" data-setbg="assets/frontend/img/foto1.jpg">
+    </div> --}}
     <!-- Hero Area Section End -->
 
     <!-- Search Filter Section Begin -->
-    <section class="search-filter other-page-filter">
+    {{-- <section class="search-filter other-page-filter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -106,51 +106,82 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Search Filter Section End -->
 
     <!-- About Us Section Begin -->
+
+
+    
     <section class="about-us spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="about-left">
                         <div class="section-title">
-                            <span>a memorable holliday</span>
-                            <h2>A great stay in a <br />lovely hotel.</h2>
+                            <span>Anda bisa mencari berbagai informasi</span>
+                            <h2>Tentang kost/Kontrakan sekitar Bandung</h2>
                         </div>
-                        <p class="second-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                            Risus commodo viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros
-                            venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae
-                            efficitur non, ultricies volutpat tellus.</p>
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p>
-                        <a href="#" class="primary-btn">Make a Reservation</a>
+                        <p class="second-text">Ada-Kost adalah situs/website pencarian Kost atau kontrakan
+                        di sekitar daerah Bandung.</p>
+                        <p>Berbagai Informasi yang dapat kamu lihat di Ada-kost :<br>
+                        - Alamat Rumah Kost atau kontrakan <br>
+                        - Foto-foto lengkap fasilitas kosan dan desain kamar kost <br>
+                        - Harga Kost <br>
+                       - Informasi ketersediaan kamar kost <br>
+                       - Nomor yang bisa dihubungi</p>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="row">
                         <div class="col-lg-7 col-md-7">
                             <div class="about-img">
-                                <img src="assets/frontend/img/about/about-1.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos31.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-5">
                             <div class="about-img second-img">
-                                <img src="assets/frontend/img/about/about-2.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos51.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-5 col-md-5">
                             <div class="about-img third-img">
-                                <img src="assets/frontend/img/about/about-3.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos43.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-7">
                             <div class="about-img">
-                                <img src="assets/frontend/img/about/about-4.jpg" alt="">
+                                <img src="assets/frontend/img/rooms/kos3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="intro-section spad">
+        <div class="container">
+            <div class="row intro-text">
+                <div class="col-lg-5">
+                    <div class="intro-left">
+                        <div class="section-title">
+                            <span>Ingin cari tahu tentang kost/Kontrakan sekitar Bandung?</span>
+                            <h2>Dapatkan infonya di Ada-kost Aja </h2>
+                        </div>
+                        <p>Ada-kost - Aplikasi Pencari Info Kost/Kontrakan sekitar Bandung
+                        Ada-kost menyajikan informasi Kamar kosan, lengkap dengan fasilitas kost, harga kost,
+                        beserta foto desain kamar yang disesuaikan dengan kondisi sebenarnya. </p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="intro-right">
+                         <div class="col-sm-6">
+                            <div class="about-img">
+                                <img src="assets/frontend/img/bdg.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -160,132 +191,13 @@
     </section>
     <!-- About Us Section End -->
 
-    <!-- Milestone Counter Section Begin -->
-    <section class="milestone-counter spad set-bg" data-setbg="assets/frontend/img/about/milestone-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="mc-item">
-                        <div class="mc-num">
-                            <span class="counter">25</span>
-                        </div>
-                        <div class="mc-text">
-                            <h3>Luxury Suites</h3>
-                            <p>From $399</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mc-item">
-                        <div class="mc-num">
-                            <span class="counter">35</span>
-                            <strong>K</strong>
-                        </div>
-                        <div class="mc-text">
-                            <h3>Happy Clients</h3>
-                            <p>all year long</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mc-item">
-                        <div class="mc-num">
-                            <span class="counter">365</span>
-                        </div>
-                        <div class="mc-text">
-                            <h3>Days/ Year</h3>
-                            <p>From $399</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Milestone Counter Section End -->
-
-    <!-- Award Section Begin -->
-    <section class="award-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Our Awards</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="award-item">
-                        <img src="assets/frontend/img/about/award-img.png" alt="">
-                        <h5>2011</h5>
-                        <h4>Best Hotel in Europe</h4>
-                        <span>Elite Hotel award</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget
-                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="award-item">
-                        <img src="assets/frontend/img/about/award-img.png" alt="">
-                        <h5>2012</h5>
-                        <h4>Best Services</h4>
-                        <span>Elite Hotel award</span>
-                        <p>Ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
-                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="award-item">
-                        <img src="assets/frontend/img/about/award-img.png" alt="">
-                        <h5>2014</h5>
-                        <h4>Best Hotel Spa</h4>
-                        <span>Elite Hotel award</span>
-                        <p>Dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
-                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare. </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="award-item">
-                        <img src="assets/frontend/img/about/award-img.png" alt="">
-                        <h5>2016</h5>
-                        <h4>Best Luxury Hotel</h4>
-                        <span>Elite Hotel award</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget
-                            sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="award-item">
-                        <img src="assets/frontend/img/about/award-img.png" alt="">
-                        <h5>2017</h5>
-                        <h4>2nd Place @ Best Hotel</h4>
-                        <span>Elite Hotel award</span>
-                        <p>Ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
-                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="award-item">
-                        <img src="assets/frontend/img/about/award-img.png" alt="">
-                        <h5>2018</h5>
-                        <h4>Best Hotel Spa</h4>
-                        <span>Elite Hotel award</span>
-                        <p>Dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac,
-                            ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Award Section End -->
-
+    
     <!-- Call To Action Begin -->
     <section class="callto-section">
         <div class="container">
             <div class="callto-text">
-                <h2>Book your stay with us now!</h2>
+                <h2>Dapatkan "info kost murah" hanya di Ada-kost</h2>
             </div>
-            <a href="#" class="primary-btn">Make a Reservation</a>
         </div>
     </section>
     <!-- Call To Action End  -->
@@ -297,13 +209,12 @@
                 <div class="col-lg-4">
                     <div class="footer-item">
                         <div class="footer-logo">
-                            <a href="#"><img src="assets/frontend/img/logo.png" alt=""></a>
+                            <a href="#"><img src="assets/frontend/img/kost.jpg" alt=""></a>
                         </div>
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.</p>
+                        <p>Ada-kost - Aplikasi Pencari Info Kost/Kontrakan sekitar Bandung</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="footer-item">
                         <h5>Newsletter</h5>
                         <div class="newslatter-form">
@@ -311,12 +222,12 @@
                             <button type="submit">Subscribe</button>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-lg-4">
                     <div class="footer-item">
                         <h5>Contact Info</h5>
                         <ul>
-                            <li><img src="assets/frontend/img/placeholder.png" alt="">1525 Boring Lane,<br />Los Angeles, CA</li>
+                            <li><img src="assets/frontend/img/placeholder.png" alt="">Bandung<br />Jawa Barat</li>
                             <li><img src="assets/frontend/img/phone.png" alt="">+1 (603)535-4592</li>
                         </ul>
                     </div>
@@ -329,12 +240,10 @@
                     <div class="col-lg-12">
                         
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Rooms</a></li>
-                            <li><a href="#">Facilities</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="./about">About</a></li>
+                            <li><a href="./rooms">Rooms</a></li>
+                            <li><a href="./contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>

@@ -31,3 +31,6 @@ Route::get('/rooms', function () {
 Route::get('/contact', function () {
     return view('frontend.contact');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
