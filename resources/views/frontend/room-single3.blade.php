@@ -96,9 +96,10 @@
           </div> <!-- .col-md-8 -->
           <!-- .section -->
 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.5504642844744!2d107.64548631431737!3d-6.944202369908662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e814fa75c5e9%3A0x5e92a6e85ce5be65!2sJl.%20Cijawura%20Girang%20No.8%2C%20Sekejati%2C%20Kec.%20Buahbatu%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040286!5e0!3m2!1sid!2sid!4v1580799397593!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           
             <div class="sidebar-box ftco-animate">
-             <center> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
+             <center><br><br> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
             </div>
           </div>
         </div>

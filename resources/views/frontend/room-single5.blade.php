@@ -94,9 +94,10 @@
           </div> <!-- .col-md-8 -->
           <!-- .section -->
 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3270769406913!2d107.5844613143177!3d-6.9706854701902765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e927dc061535%3A0x1d0dc4f59b93fa5f!2sJl.%20Sekeawi%2C%20Sukamenak%2C%20Kec.%20Margahayu%2C%20Bandung%2C%20Jawa%20Barat%2040227!5e0!3m2!1sid!2sid!4v1580800761565!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           
             <div class="sidebar-box ftco-animate">
-             <center> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
+             <center><br><br> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
             </div>
           </div>
         </div>

@@ -89,8 +89,11 @@
           </div> <!-- .col-md-8 -->
           <!-- .section -->
           
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.9991675349595!2d107.63874328994122!3d-7.009477527225578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85dbd528c8321ee2!2sBumi%20Siliwangi%20%3A%20Leon!5e0!3m2!1sid!2sid!4v1580799684415!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
             <div class="sidebar-box ftco-animate">
-             <center> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
+             <center><br><br> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
             </div>
           </div>
         </div>

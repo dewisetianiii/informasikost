@@ -95,7 +95,7 @@
           </div> <!-- .col-md-8 -->
           <!-- .section -->
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.4531565227526!2d107.62024481431754!3d-6.955750770031322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e85888d3f5e1%3A0x39fc12dd783452f4!2sJl.%20Sukaati%20No.25%2C%20Mengger%2C%20Kec.%20Bandung%20Kidul%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040267!5e0!3m2!1sid!2sid!4v1580723077566!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7812985343126!2d107.59281666431713!3d-6.916730419617791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e619dc8f79ab%3A0x37acc45edef090e7!2sCluster%20Sukamanah%20Indah!5e0!3m2!1sid!2sid!4v1580799167142!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
           
             <div class="sidebar-box ftco-animate">

@@ -77,29 +77,28 @@
                         <div class="item">
           					<div class="room-img" style="background-image: url(assets/frontend/images/kos23.jpg);"></div>
           				</div>
-          				<div class="item">
-          					<div class="room-img" style="background-image: url(assets/frontend/images/kos24.jpg);"></div>
-          				</div>
           			</div>
           		</div>
           		<div class="col-md-12 room-single mt-4 mb-5 ftco-animate">
-          			<h2 class="mb-4">Kost Telkom <span>- (Dekat University Telkom)</span></h2>
-    						<p>2 Lantai <br> Tersedia: <br> - 5 Kamar tidur <br> - 2 Kamar mandi (diatas & bawah) <br>
-                            - Ruang tamu <br> - Tempat Jemuran <br> - Dapur <br> - parkir mobil/motor<br> <br>
-                            Fasilitas: <br> 1. Ac <br> 2. Bed(kasur) <br> 3. Lemari kamar <br> 4. Tv (Ruang tamu) <br>
-                            5. kulkas <br> 6.kompor <br> 7. Meja makan <br><br> Akses lokasi: <br>
-                            - 5 menit ke jalan to Buah Batu <br> - 5 menit ke Transmart Buah Batu <br>
-                            - Dekat dengan super market(inomaret/alfamart) <br> - Dekat dengan ATM <br>
-                             Harga: Rp. 43.000.000/pertahun <br><br>
-                            Info lebih lanjut: 081221695442</p>
+          			<h2 class="mb-4">Kost Ikke <span>- (Komplek Bojong Malaka Indah)</span></h2>
+    						<p>2 Lantai <br> Fasilitas: <br> - Luas Ruangan 3Mx5,10M <br> - Kamar mandi dalam <br>
+                            - Dapur <br> - Meja Kompor <br> - Listrik prabayar <br> - parkir luas 280M<br> <br>
+                            Lokasi:<br> Terusan Cibaduyut Arah Rancamanyar, lokasi berada dikawasan komplek Bojong Malaka
+                            Indah blok D1 atau jalan Ciodeng Barat-Kampung pulo RT 01 RW 07 Ds.Bojong Malaka Kec.Baleendah Kab.Bandung<br><br>
+                            Akses lokasi:<br> 1. Lokasi pinngir jalan <br> 2. Akses dekat pasar <br> 3. dekat sekolah <br><br>  
+                            -GRATIS BIAYA AIR<br> -GRATIS BIAYA SAMPAH<br> -GRATIS BIAYA PARKIR MOBIL<br><br>
+                            Sewa Bisa bulanan,tahunan diskon 1 bulan<br>
+                            Harga: Rp. 700.000/perbulan <br>
+                            Info lebih lanjut:<br> HP:082216445774<br> WA:085722024184</p>
           		</div>  		
           	</div>
           </div> <!-- .col-md-8 -->
           <!-- .section -->
 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2028209535447!2d107.60169881431774!3d-6.985373070346946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e927e6675cc1%3A0x3ec2d612c3becefb!2skosan%20ikke!5e0!3m2!1sid!2sid!4v1580807797904!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           
             <div class="sidebar-box ftco-animate">
-             <center> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
+             <center><br><br> <h2>Dapatkan kost atau kontrakan sesuai keinginanmu</h2> </center>
             </div>
           </div>
         </div>

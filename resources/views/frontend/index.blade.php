@@ -49,7 +49,7 @@
     <!-- END nav -->
 		<div class="hero">
 	    <section class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image:url(assets/frontend/images/bg_1.jpg);">
+	      <div class="slider-item" style="background-image:url(assets/frontend/images/foto1.jpg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-end">
@@ -63,7 +63,7 @@
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image:url(assets/frontend/images/bg_2.jpg);">
+	      <div class="slider-item" style="background-image:url(assets/frontend/images/fotokost.jpg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-end">
@@ -111,8 +111,8 @@
     					<a href="#" class="img" style="background-image: url(assets/frontend/images/kos21.jpg);"></a>
     					<div class="half left-arrow d-flex align-items-center">
     						<div class="text p-4 text-center">
-    							<p class="mb-0"><span class="price mr-1">Rp. 43jt</span> <span class="per">per tahun</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">Kost Telkom</a></h3>
+    							<p class="mb-0"><span class="price mr-1">Rp. 700rb</span> <span class="per">per bulan</span></p>
+	    						<h3 class="mb-3"><a href="rooms.html">Kost Ikke</a></h3>
 	    						<p class="pt-1"><a href="./room-single1" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
     						</div>
     					</div>
