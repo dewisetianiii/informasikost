@@ -47,13 +47,13 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-		<div class="hero-wrap" style="background-image: url('assets/frontend/images/bg_3.jpg');">
+		<div class="hero-wrap" style="background-image: url('assets/frontend/images/foto1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text d-flex align-itemd-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
           	<div class="text">
-	            <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home</a></span> <span class="mr-2"><a href="rooms.html">Rooms</a></span> <span>Rooms Single</span></p>
+	            <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home</a></span> <span class="mr-2"><a href="./rooms">Rooms</a></span> <span>Rooms Single</span></p>
 	            <h1 class="mb-4 bread">Details</h1>
             </div>
           </div>
@@ -105,7 +105,7 @@
     </section> <!-- .section -->
 
 
-     <footer class="ftco-footer ftco-section img" style="background-image: url(assets/frontend/images/bg_4.jpg);">
+     <footer class="ftco-footer ftco-section img" style="background-image: url(assets/frontend/images/steker.jpg);">
     	<div class="overlay"></div>
       <div class="container">
         <div class="row mb-5">

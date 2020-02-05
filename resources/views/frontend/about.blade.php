@@ -47,7 +47,7 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-		<div class="hero-wrap" style="background-image: url('assets/frontend/images/bg_3.jpg');">
+		<div class="hero-wrap" style="background-image: url('assets/frontend/images/foto1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text d-flex align-itemd-center justify-content-center">
@@ -111,7 +111,7 @@
           </div>
           <div class="col-md-3 d-flex">
           	<div class="info rounded bg-white p-4">
-	            <p><span>Website</span> <a href="#">adakost.com</a></p>
+	            <p><span>Website</span> <a href="#">adakost.</a></p>
 	          </div>
           </div>
         </div>
@@ -138,7 +138,7 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
+          	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60912431426!2d107.57311648982727!3d-6.903273916896009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1580885203977!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
 
   
 
-    <footer class="ftco-footer ftco-section img" style="background-image: url(assets/frontend/images/bg_4.jpg);">
+    <footer class="ftco-footer ftco-section img" style="background-image: url(assets/frontend/images/steker.jpg);">
     	<div class="overlay"></div>
       <div class="container">
         <div class="row mb-5">
