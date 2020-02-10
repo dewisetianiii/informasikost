@@ -83,6 +83,10 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('frontend.contact');
 });
+
+Route::resource('kamar', 'KamarController');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
