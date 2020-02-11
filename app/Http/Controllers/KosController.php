@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Kamar;
+use App\Kos;
 use Session;
 use Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
-class KamarController extends Controller
+class KosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,8 +18,8 @@ class KamarController extends Controller
      */
     public function index()
     {
-        $kamar = Kamar::all();
-        return view('backend.kamar.index', compact('kamar'));
+        $kos = Kos::all();
+        return view('backend.kos.index', compact('kos'));
     }
 
     /**
@@ -29,8 +29,7 @@ class KamarController extends Controller
      */
     public function create()
     {
-        $kamar = Kamar::all();
-        return view('backend.kamar.create', compact('kamar'));
+        //
     }
 
     /**
@@ -41,11 +40,7 @@ class KamarController extends Controller
      */
     public function store(Request $request)
     {
-        $kamar = new Kamar();
-        $kamar->fasilitas_kamar = $request->fasilitas_kamar;
-
-    $kamar->save();
-    return redirect()->route('kamar.index');
+        //
     }
 
     /**
@@ -56,8 +51,7 @@ class KamarController extends Controller
      */
     public function show($id)
     {
-        $kamar = Kamar::findOrFail($id);
-        return view('backend.kamar.show', compact('kamar'));
+        //
     }
 
     /**
@@ -68,8 +62,7 @@ class KamarController extends Controller
      */
     public function edit($id)
     {
-        $kamar = Kamar::findOrFail($id);
-        return view('backend.kamar.edit', compact('kamar'));
+        //
     }
 
     /**
@@ -81,10 +74,7 @@ class KamarController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $kamar = Kamar::findOrFail($id);
-        $kamar->fasilitas_kamar = $request->fasilitas_kamar;
-        $kamar->save();
-        return redirect()->route('kamar.index');
+        //
     }
 
     /**
@@ -95,8 +85,6 @@ class KamarController extends Controller
      */
     public function destroy($id)
     {
-        $kamar = Kamar::findOrFail($id);
-        $kamar->delete();
-        return redirect()->route('kamar.index');
+        //
     }
 }

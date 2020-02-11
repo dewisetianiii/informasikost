@@ -86,6 +86,10 @@ Route::get('/contact', function () {
 
 Route::resource('kamar', 'KamarController');
 
+Route::resource('parkir', 'ParkirController');
+
+Route::resource('kos', 'KosController');
+
 
 Auth::routes();
 

@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Kamar;
+use App\Parkir;
 use Session;
 use Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
-class KamarController extends Controller
+class ParkirController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,8 +18,8 @@ class KamarController extends Controller
      */
     public function index()
     {
-        $kamar = Kamar::all();
-        return view('backend.kamar.index', compact('kamar'));
+        $parkir = Parkir::all();
+        return view('backend.parkir.index', compact('parkir'));
     }
 
     /**
@@ -29,8 +29,8 @@ class KamarController extends Controller
      */
     public function create()
     {
-        $kamar = Kamar::all();
-        return view('backend.kamar.create', compact('kamar'));
+        $parkir = Parkir::all();
+        return view('backend.parkir.create', compact('parkir'));
     }
 
     /**
@@ -41,11 +41,11 @@ class KamarController extends Controller
      */
     public function store(Request $request)
     {
-        $kamar = new Kamar();
-        $kamar->fasilitas_kamar = $request->fasilitas_kamar;
+        $parkir = new Parkir();
+        $parkir->fasilitas_parkir = $request->fasilitas_parkir;
 
-    $kamar->save();
-    return redirect()->route('kamar.index');
+    $parkir->save();
+    return redirect()->route('parkir.index');
     }
 
     /**
@@ -56,8 +56,8 @@ class KamarController extends Controller
      */
     public function show($id)
     {
-        $kamar = Kamar::findOrFail($id);
-        return view('backend.kamar.show', compact('kamar'));
+        $parkir = Parkir::findOrFail($id);
+        return view('backend.parkir.show', compact('parkir'));
     }
 
     /**
@@ -68,8 +68,8 @@ class KamarController extends Controller
      */
     public function edit($id)
     {
-        $kamar = Kamar::findOrFail($id);
-        return view('backend.kamar.edit', compact('kamar'));
+        $parkir = Parkir::findOrFail($id);
+        return view('backend.parkir.edit', compact('parkir'));
     }
 
     /**
@@ -81,10 +81,10 @@ class KamarController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $kamar = Kamar::findOrFail($id);
-        $kamar->fasilitas_kamar = $request->fasilitas_kamar;
-        $kamar->save();
-        return redirect()->route('kamar.index');
+        $parkir = Parkir::findOrFail($id);
+        $parkir->fasilitas_parkir = $request->fasilitas_parkir;
+        $parkir->save();
+        return redirect()->route('parkir.index');
     }
 
     /**
@@ -95,8 +95,8 @@ class KamarController extends Controller
      */
     public function destroy($id)
     {
-        $kamar = Kamar::findOrFail($id);
-        $kamar->delete();
-        return redirect()->route('kamar.index');
+        $parkir = Parkir::findOrFail($id);
+        $parkir->delete();
+        return redirect()->route('parkir.index');
     }
 }
