@@ -20,7 +20,7 @@
         </button>
     </div>
     <div class="form-group">
-        <a href="{{ url('/backend/parkir') }}" class="btn btn-outline-info">Kembali</a>
+        <a href="{{ url('/parkir') }}" class="btn btn-outline-info">Kembali</a>
     </div>
         </form>
             </div>

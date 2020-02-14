@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
+    <!-- Select2-->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="/assets/backend/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
@@ -36,11 +38,11 @@
         <!-- Sidebar Header    -->
         <div class="sidenav-header d-flex align-items-center justify-content-center">
           <!-- User Info-->
-          <div class="sidenav-header-inner text-center"><img src="/assets/backend/img/avatar-7.jpg" alt="person" class="img-fluid rounded-circle">
-            <h2 class="h5">Nathan Andrews</h2><span>Web Developer</span>
+          <div class="sidenav-header-inner text-center"><img src="/assets/backend/img/kost.jpg" alt="person" class="img-fluid rounded-circle">
+            <h2 class="h5">Admin</h2><span>Ada-kost</span>
           </div>
           <!-- Small Brand information, appears on minimized sidebar-->
-          <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
+          <div class="sidenav-header-logo"><a href="" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
         </div>
         <!-- Sidebar Navigation Menus-->
         <div class="main-menu">
@@ -49,29 +51,9 @@
             <li><a href="./kamar"> <i class="icon-form"></i>F.Kamar</a></li>
             <li><a href="./parkir"> <i class="icon-form"></i>F.Parkir</a></li>
             <li><a href="./kos"> <i class="icon-interface-windows"></i>Kots/Kontrakan</a></li>
-            <li><a href="tables.html"> <i class="icon-grid"></i>Tables</a></li>
-            <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Example dropdown </a>
-              <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                <li><a href="#">Page</a></li>
-                <li><a href="#">Page</a></li>
-                <li><a href="#">Page</a></li>
-              </ul>
-            </li>
-            <li><a href="login.html"> <i class="icon-interface-windows"></i>Login page</a></li>
-            <li> <a href="#"> <i class="icon-mail"></i>Demo
-                <div class="badge badge-warning">6 New</div></a></li>
           </ul>
         </div>
-        <div class="admin-menu">
-          <h5 class="sidenav-heading">Second menu</h5>
-          <ul id="side-admin-menu" class="side-menu list-unstyled"> 
-            <li> <a href="#"> <i class="icon-screen"> </i>Demo</a></li>
-            <li> <a href="#"> <i class="icon-flask"> </i>Demo
-                <div class="badge badge-info">Special</div></a></li>
-            <li> <a href=""> <i class="icon-flask"> </i>Demo</a></li>
-            <li> <a href=""> <i class="icon-picture"> </i>Demo</a></li>
-          </ul>
-        </div>
+        
       </div>
     </nav>
     <div class="page">
@@ -111,6 +93,7 @@
 
     </div>
     <!-- JavaScript files-->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
     <script src="/assets/backend/vendor/jquery/jquery.min.js"></script>
     <script src="/assets/backend/vendor/popper.js/umd/popper.min.js"> </script>
     <script src="/assets/backend/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -122,5 +105,9 @@
     <script src="/assets/backend/js/charts-home.js"></script>
     <!-- Main File-->
     <script src="/assets/backend/js/front.js"></script>
+    <script>// In your Javascript (external .js resource or <script> tag)
+$(document).ready(function() {
+    $('#select2').select2();
+});</script>
   </body>
 </html>

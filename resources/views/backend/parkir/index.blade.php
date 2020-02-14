@@ -1,20 +1,22 @@
 @extends('layouts.backend')
 
 @section('content')
+<br><br>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Data Fasilitas parkir</div>
-                
+            <center>
+                <div class="p-3 mb-2 bg-secondary text-white">Data Fasilitas parkir</div>
+                </center>
                 <center>
                     <br>
                     <a href="{{ route('parkir.create') }}" class="btn btn-outline-info">Tambah</a>
                 </center>
                 <div class="table-responsive">
                     <br>
-                    <table class="table"3 >
-                        <tr>
+                    <table class="table table-striped table-bordered" >
+                        <tr class="success">
                             <th>No</th>
                             <th>Fasilitas Parkir</th>
                             <th colspan="3" style="text-align:center;">Action</th>

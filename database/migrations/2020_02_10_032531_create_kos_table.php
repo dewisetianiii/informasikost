@@ -15,16 +15,16 @@ class CreateKosTable extends Migration
     {
         Schema::create('kos', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('id_fasilitas_kamar');
-            $table->foreign('id_fasilitas_kamar')->references('id')->on('kamars')->onDelete('cascade');
-            $table->unsignedInteger('id_fasilitas_parkir');
-            $table->foreign('id_fasilitas_parkir')->references('id')->on('parkirs')->onDelete('cascade');
+            $table->unsignedInteger('id_kamar');
+            $table->foreign('id_kamar')->references('id')->on('kamars')->onDelete('cascade');
+            $table->unsignedInteger('id_parkir');
+            $table->foreign('id_parkir')->references('id')->on('parkirs')->onDelete('cascade');
             $table->string('nama');
             $table->text('alamat');
-            $table->integer('harga');
-            $table->integer('luas_kamar');
-            $table->string('gambar');
-            $table->integer('telepon');
+            $table->string('harga');
+            $table->string('luas_kamar');
+            $table->string('gambar')->nullable();
+            $table->string('telepon');
             $table->timestamps();
         });
     }

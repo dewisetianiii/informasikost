@@ -28,26 +28,41 @@
                                 <input type="text" name="alamat" class="form-control" required>
                             </div>
                             <div class="form-group">
+                                <label for="">Fasilitas Kamar</label>
+                                <select name="kamar[]" class="form-control" id="select2" multiple>
+                        @foreach($kamar as $data)
+                            <option value="{{ $data->id }}">
+                                {{ $data->fasilitas_kamar }}
+                            </option>
+                        @endforeach
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Fasilitas Parkir</label>
+                                <select name="parkir" class="form-control" id="select2" multiple>
+                        @foreach($parkir as $data)
+                            <option value="{{ $data->id }}">
+                                {{ $data->fasilitas_parkir }}
+                            </option>
+                        @endforeach
+                                </select>
+                            </div>
+                            <div class="form-group">
                                 <label for="">Harga</label>
-                                <input type="number" name="harga" class="form-control" required>
+                                <input type="text" name="harga" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="">Type Motor</label>
-                                <input type="text" name="motor_type" class="form-control" required>
+                                <label for="">Luas Kamar</label>
+                                <input type="text" name="luaskamar" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="">Pilihan Warna kos</label>
-                                <input type="text" name="motor_warna_pilihan" class="form-control" required>
+                                <label for="">Gambar</label>
+                                <input type="file" name="gambar" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="">Harga Motor</label>
-                                <input type="number" name="motor_harga" class="form-control" required>
+                                <label for="">Telepon</label>
+                                <input type="text" name="telepon" class="form-control" required>
                             </div>
-                            <div class="form-group">
-                                <label for="">Gambar Motor</label>
-                                <input type="file" name="motor_gambar" class="form-control" required>
-                            </div>
-        
                             <button type="submit" class="btn btn-md btn-info">Simpan</button>
                             <a name="" id="" class="btn btn-md btn-warning" 
                             href="{{ route('kos.index') }}" role="button">Kembali</a>

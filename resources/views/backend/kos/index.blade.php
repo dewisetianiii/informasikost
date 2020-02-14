@@ -1,17 +1,19 @@
 @extends('layouts.backend')
 
 @section('content')
+<br><br>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Data Kos/Kontrakan</div>
-                <br>
+            <center>
+                <div class="p-3 mb-2 bg-secondary text-white">Data Kos/Kontrakan</div>
+                </center>
                 <center><a href="{{ route('kos.create') }}" class="btn btn-outline-info">Tambah</a></center>
                     <br>
                     <div class="table-responsive">
-                        <table class="table">
-                            <tr>
+                        <table class="table table-striped table-bordered">
+                            <tr class="success">
                                 <th>No</th>
                                 <th>Nama</th>
                                 <th>Alamat</th>
@@ -21,6 +23,7 @@
                                 <th>Fasilitas Parkir</th>
                                 <th>Telepon</th>
                                 <th>Gambar</th>
+                                {{-- <th>Gambar</th> --}}
                                 <th colspan="3" style="text-align: center;">Aksi</th>
                             </tr>
                 @php $no =1; @endphp
@@ -36,11 +39,11 @@
                     <td>{{ $data->telepon }}</td>
                     <td><img src="{{ asset('assets/img/kos/'.$data->gambar) }}" alt="" height="100px" width="100px"></td>
                     <td><a href="{{ route('kos.edit', $data->id) }}" class="btn btn-warning">Edit</a></td>
-                    <td><a href="{{ route('kos.show', $data->id) }}" class="btn btn-success">Detail Data</a></td>
+                    <td><a href="{{ route('kos.show', $data->id) }}" class="btn btn-success">Detail</a></td>
                     <td><form action="{{ route('kos.destroy', $data->id) }}" method="post">
                         {{ csrf_field() }}
                         <input type="hidden" name="_method" value="DELETE">
-                        <button class="btn btn -sm btn-danger" type="submit">Hapus Data</button>
+                        <button class="btn btn -sm btn-danger" type="submit">Hapus</button>
                     </form>
                     </td>
                 </tr>

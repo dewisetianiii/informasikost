@@ -8,12 +8,12 @@ class Kos extends Model
 {
 public function Kamar()
 {
-    return $this->belongTo('App\Kamar', 'id_kamar');
+    return $this->belongsTo('App\Kamar', 'id_kamar');
 }
 
 public function Parkir()
 {
-    return $this->belongTo('App\Parkir', 'id_parkir');
+    return $this->belongsTo('App\Parkir', 'id_parkir');
 }
 
 }
