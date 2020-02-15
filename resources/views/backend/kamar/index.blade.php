@@ -7,7 +7,7 @@
         <div class="col-md-12">
             <div class="card">
             <center>
-                <div class="p-3 mb-2 bg-secondary text-white">Data Fasilitas Kamar</div>
+                <div class="p-3 mb-2 bg-secondary text-white">Data Fasilitas</div>
                 </center>
                 <center>
                     <br>

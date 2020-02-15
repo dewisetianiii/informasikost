@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Kos;
-use App\kamar;
-use App\Parkir;
+use App\Kamar;
+// use App\Parkir;
 use Session;
 use Auth;
 use Illuminate\Support\Facades\File;
@@ -21,7 +21,8 @@ class KosController extends Controller
     public function index()
     {
         $kos = Kos::all();
-        return view('backend.kos.index', compact('kos'));
+        $kamar = Kamar::all();
+        return view('backend.kos.index', compact('kos', 'kamar'));
     }
 
     /**
@@ -32,9 +33,9 @@ class KosController extends Controller
     public function create()
     {
         $kamar = Kamar::all();
-        $parkir = Parkir::all();
+        // $parkir = Parkir::all();
         $kos = Kos::all();
-        return view('backend.kos.create', compact('kamar', 'parkir', 'kos'));
+        return view('backend.kos.create', compact('kamar', 'kos'));
     }
 
     /**
@@ -51,8 +52,8 @@ class KosController extends Controller
         $kos->harga = $request->harga;
         $kos->luas_kamar = $request->luaskamar;
         $kos->telepon = $request->telepon;
-        $kos->id_kamar = $request->kamar;
-        $kos->id_parkir = $request->parkir;
+        // $kos->id_kamar = $request->kamar;
+        // $kos->id_parkir = $request->parkir;
 
         if ($request->hasFile('gambar')) {
             $file = $request->file('gambar');
@@ -64,6 +65,7 @@ class KosController extends Controller
 
 
         $kos->save();
+        $kos->kamar()->attach($request->id_kamar);
         Session::flash("flash_notification", [
             "level" => "success",
             "message" => "Berhasil menyimpan data kost berjudul <b>$kos->nama</b>!"
@@ -81,7 +83,10 @@ class KosController extends Controller
     public function show($id)
     {
         $kos = Kos::findOrFail($id);
-        return view('backend.kos.show', compact('kos'));
+        $kamar = Kamar::all();
+        $selected = $kos->kamar->pluck('id')->toArray();
+
+        return view('backend.kos.show', compact('kos', 'kamar', 'selected'));
     }
 
     /**
@@ -94,8 +99,9 @@ class KosController extends Controller
     {
         $kos = Kos::findOrFail($id);
         $kamar = Kamar::all();
-        $parkir = Parkir::all();
-        return view('backend.kos.edit', compact('kos', 'kamar', 'parkir'));
+        $selected = $kos->kamar->pluck('id')->toArray();
+        // $parkir = Parkir::all();
+        return view('backend.kos.edit', compact('kos', 'kamar', 'selected'));
     }
 
     /**
@@ -111,7 +117,7 @@ class KosController extends Controller
         $kos->nama = $request->nama;
         $kos->alamat = $request->alamat;
         $kos->id_kamar = $request->kamar;
-        $kos->id_parkir = $request->parkir;
+        // $kos->id_parkir = $request->parkir;
         $kos->harga = $request->harga;
         $kos->luas_kamar = $request->luaskamar;
         $kos->telepon = $request->telepon;
@@ -133,7 +139,8 @@ class KosController extends Controller
                 $kos->gambar = $filename;
             }
 
-        $kos->save();
+            $kos->save();
+        $kos->kamar()->sync($request->id_kamar);
         return redirect()->route('kos.index');
         
     }

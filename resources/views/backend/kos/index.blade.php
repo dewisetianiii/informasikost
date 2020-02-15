@@ -19,8 +19,8 @@
                                 <th>Alamat</th>
                                 <th>Harga</th>
                                 <th>Luas Kamar</th>
-                                <th>Fasilitas Kamar</th>
-                                <th>Fasilitas Parkir</th>
+                                <th>Fasilitas</th>
+                                {{-- <th>Fasilitas Parkir</th> --}}
                                 <th>Telepon</th>
                                 <th>Gambar</th>
                                 {{-- <th>Gambar</th> --}}
@@ -34,8 +34,13 @@
                     <td>{{ $data->alamat }}</td>
                     <td>{{ $data->harga }}</td>
                     <td>{{ $data->luas_kamar }}</td>
-                    <td>{{ $data->kamar->fasilitas_kamar }}</td>
-                    <td>{{ $data->parkir->fasilitas_parkir }}</td>
+                    <td>
+                    @foreach ($kamar as $list)
+                        
+                    <li>{{ $list->fasilitas_kamar }}</li>
+                    @endforeach
+                    </li>
+                    {{-- <td>{{ $data->parkir->fasilitas_parkir }}</td> --}}
                     <td>{{ $data->telepon }}</td>
                     <td><img src="{{ asset('assets/img/kos/'.$data->gambar) }}" alt="" height="100px" width="100px"></td>
                     <td><a href="{{ route('kos.edit', $data->id) }}" class="btn btn-warning">Edit</a></td>

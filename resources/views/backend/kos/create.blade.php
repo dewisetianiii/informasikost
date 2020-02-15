@@ -37,16 +37,16 @@
                         @endforeach
                                 </select>
                             </div>
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label for="">Fasilitas Parkir</label>
-                                <select name="parkir" class="form-control" id="select2" multiple>
+                                <select name="parkir[]" class="form-control" id="select2" multiple>
                         @foreach($parkir as $data)
                             <option value="{{ $data->id }}">
                                 {{ $data->fasilitas_parkir }}
                             </option>
                         @endforeach
                                 </select>
-                            </div>
+                            </div> --}}
                             <div class="form-group">
                                 <label for="">Harga</label>
                                 <input type="text" name="harga" class="form-control" required>

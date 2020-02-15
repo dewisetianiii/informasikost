@@ -15,10 +15,10 @@ class CreateKosTable extends Migration
     {
         Schema::create('kos', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('id_kamar');
-            $table->foreign('id_kamar')->references('id')->on('kamars')->onDelete('cascade');
-            $table->unsignedInteger('id_parkir');
-            $table->foreign('id_parkir')->references('id')->on('parkirs')->onDelete('cascade');
+            // $table->unsignedInteger('id_kamar');
+            // $table->foreign('id_kamar')->references('id')->on('kamars')->onDelete('cascade');
+            // $table->unsignedInteger('id_parkir');
+            // $table->foreign('id_parkir')->references('id')->on('parkirs')->onDelete('cascade');
             $table->string('nama');
             $table->text('alamat');
             $table->string('harga');

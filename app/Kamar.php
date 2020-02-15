@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Kamar extends Model
 {
-    public function Kos()
+    public function kos()
     {
-    return $this->hasMany('App\Kos', 'fasilitas_kamar');
+    return $this->belongsToMany('App\Kos', 'kamar_kos', 'id_kos', 'id_kamar');
     }
 }

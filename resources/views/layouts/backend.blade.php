@@ -48,8 +48,7 @@
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><a href="./kamar"> <i class="icon-form"></i>F.Kamar</a></li>
-            <li><a href="./parkir"> <i class="icon-form"></i>F.Parkir</a></li>
+            <li><a href="./kamar"> <i class="icon-form"></i>Fasilitas</a></li>
             <li><a href="./kos"> <i class="icon-interface-windows"></i>Kots/Kontrakan</a></li>
           </ul>
         </div>

@@ -19,18 +19,15 @@
         <input class="form-control" value="{{ $kos->alamat }}" type="text" name="alamat">
     </div>
     <div class="form-group">
+    @php $kamar = \App\Kamar::all(); @endphp
         <label for="">Fasilitas Kamar</label>
-        <select name="kamar" class="form-control">
+        <select name="kamar[]" class="form-control" multiple>
             @foreach($kamar as $data)
-                <option value="{{ $data->id }}"
-                    {{ $kos->Kamar->id ==
-                        $data->id ? 'selected="selected"' : '' }}>
-                    {{ $data->fasilitas_kamar }}
-                </option>
+                <option value="{{ $data->id }}" {{ (in_array($data->id, $selected)) ? 'selected="selected"' : '' }}>{{ $data->fasilitas_kamar }}</option>
             @endforeach
         </select>
     </div>
-    <div class="form-group">
+    {{-- <div class="form-group">
         <label for="">Fasilitas Parkir</label>
         <select name="parkir" class="form-control">
             @foreach($parkir as $data)
@@ -41,7 +38,7 @@
                 </option>
             @endforeach
         </select>
-    </div>
+    </div> --}}
     <div class="form-group">
         <label for="">Harga</label>
         <input class="form-control" value="{{ $kos->harga }}" type="text" name="harga">

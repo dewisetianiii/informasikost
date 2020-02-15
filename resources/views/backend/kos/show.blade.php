@@ -17,12 +17,17 @@
     </div>
     <div class="form-group">
         <label for="">Fasilitas Kamar</label>
-        <input class="form-control" value="{{ $kos->kamar->fasilitas_kamar }}" type="text" name="kamar" disabled>
+        <select name="kos[]" class="form-control" id="select2" multiple disabled>
+        @foreach ($kamar as $kams)
+            
+            <option value="{{ $kams->id }}" {{ (in_array($kams->id, $selected)) ? 'selected="selected"' : '' }}>{{ $kams->fasilitas_kamar }}</option>
+        @endforeach
+        </select>
     </div>
-    <div class="form-group">
+    {{-- <div class="form-group">
         <label for="">Fasilitas parkir</label>
         <input class="form-control" value="{{ $kos->parkir->fasilitas_parkir }}" type="text" name="parkir" disabled>
-    </div>
+    </div> --}}
     <div class="form-group">
         <label for="">Harga</label>
         <input class="form-control" value="{{ $kos->harga }}" type="text" name="harga" disabled>
