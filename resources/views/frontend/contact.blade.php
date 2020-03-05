@@ -42,7 +42,6 @@
 	          <li class="nav-item"><a href="./about" class="nav-link">About Us</a></li>
 	          <li class="nav-item"><a href="./blog" class="nav-link">Blog</a></li>
 	          <li class="nav-item active"><a href="./contact" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="login" class="nav-link">Login</a></li>
 	        </ul>
 	      </div>
 	    </div>

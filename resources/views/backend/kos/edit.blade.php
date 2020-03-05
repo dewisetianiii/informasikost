@@ -1,6 +1,7 @@
 @extends('layouts.backend')
 
 @section('content')
+<br><br>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -21,7 +22,7 @@
     <div class="form-group">
     @php $kamar = \App\Kamar::all(); @endphp
         <label for="">Fasilitas Kamar</label>
-        <select name="kamar[]" class="form-control" multiple>
+        <select name="id_kamar[]" class="form-control" multiple>
             @foreach($kamar as $data)
                 <option value="{{ $data->id }}" {{ (in_array($data->id, $selected)) ? 'selected="selected"' : '' }}>{{ $data->fasilitas_kamar }}</option>
             @endforeach

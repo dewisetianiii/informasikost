@@ -20,7 +20,7 @@ class KosController extends Controller
      */
     public function index()
     {
-        $kos = Kos::all();
+        $kos = Kos::with("kamar")->get();
         $kamar = Kamar::all();
         return view('backend.kos.index', compact('kos', 'kamar'));
     }
@@ -116,7 +116,6 @@ class KosController extends Controller
         $kos = Kos::findOrFail($id);
         $kos->nama = $request->nama;
         $kos->alamat = $request->alamat;
-        $kos->id_kamar = $request->kamar;
         // $kos->id_parkir = $request->parkir;
         $kos->harga = $request->harga;
         $kos->luas_kamar = $request->luaskamar;

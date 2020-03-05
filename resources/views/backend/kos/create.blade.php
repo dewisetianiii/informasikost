@@ -1,7 +1,7 @@
 @extends('layouts.backend')
 
 @section('content')
-
+<br><br>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +29,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="">Fasilitas Kamar</label>
-                                <select name="kamar[]" class="form-control" id="select2" multiple>
+                                <select name="id_kamar[]" class="form-control" id="select2" multiple>
                         @foreach($kamar as $data)
                             <option value="{{ $data->id }}">
                                 {{ $data->fasilitas_kamar }}

@@ -8,6 +8,6 @@ class Kamar extends Model
 {
     public function kos()
     {
-    return $this->belongsToMany('App\Kos', 'kamar_kos', 'id_kos', 'id_kamar');
+    return $this->belongsToMany('App\Kos', 'kamar_kos', 'id_kamar', 'id_kos');
     }
 }

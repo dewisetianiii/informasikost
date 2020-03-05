@@ -4,7 +4,7 @@
 <br><br>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12">
+        <div class="col-md-15">
             <div class="card">
             <center>
                 <div class="p-3 mb-2 bg-secondary text-white">Data Kos/Kontrakan</div>
@@ -35,7 +35,7 @@
                     <td>{{ $data->harga }}</td>
                     <td>{{ $data->luas_kamar }}</td>
                     <td>
-                    @foreach ($kamar as $list)
+                    @foreach ($data->kamar as $list)
                         
                     <li>{{ $list->fasilitas_kamar }}</li>
                     @endforeach

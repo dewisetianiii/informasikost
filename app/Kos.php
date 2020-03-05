@@ -12,7 +12,7 @@ class Kos extends Model
 
     public function kamar()
     {
-        return $this->belongsToMany('App\Kamar', 'kamar_kos', 'id_kamar', 'id_kos');
+        return $this->belongsToMany('App\Kamar', 'kamar_kos', 'id_kos', 'id_kamar');
     }
 
     // public function Kamar()
