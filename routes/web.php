@@ -90,6 +90,16 @@ Route::resource('parkir', 'ParkirController');
 
 Route::resource('kos', 'KosController');
 
+// Route::group(['prefix' => 'backend', 'middleware' => ['auth']], function () {
+//     Route::resource('/kamar', 'KamarController');
+//     Route::resource('/kos', 'KosController');
+//     Route::resource('/user', 'UserController');
+// });
+// Route::group(['prefix' => 'backend', 'middleware' => ['auth']], function () {
+
+//     Route::resource('/kos', 'KosController');
+// });
+
 
 Auth::routes();
 

@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use App\Role;
 use App\User;
 
-class DatabaseSeeder extends Seeder
+class UsersTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
